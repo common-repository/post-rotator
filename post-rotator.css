@@ -1,0 +1,80 @@
+/*  
+	Post Rotator Wordpress Plugin - CSS
+	Written by: Shai Barash
+	Git: https://github.com/sirbolkins/postrotator
+*/
+
+#rotator_stage {
+  clear: both;
+  overflow: hidden;
+  padding: 10px 5% 0;
+  position: relative;
+  width: 90%;
+}
+
+#post_rotator_arrow_left {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:6;
+  padding:0 4px;
+  cursor:pointer;
+  background-color: transparent;
+  -webkit-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px; 
+  margin: 0 0 0 1px;
+  color:#666;
+  font-size:28px;
+}
+
+#post_rotator_arrow_left:hover {
+  border-left:1px solid #dadada;
+  margin:0;
+}
+
+#post_rotator_arrow_right {
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:6;
+  padding:0 4px;
+  background-color: transparent;
+  cursor:pointer;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px; 
+  margin: 0 1px 0 0;
+  color:#666;
+  font-size:28px;
+}
+
+#post_rotator_arrow_right:hover {
+  border-right:1px solid #dadada;
+  margin:0;
+}
+
+#rotator_prop {
+  position:absolute;
+  top:0;
+  left:0;
+  padding:0;
+  margin:0;
+  z-index:5;
+}
+
+.rotator_slide {
+  position:relative;
+  float:left;
+  display:block;
+}
+
+.post_rotator_wrap {
+  padding:2% 5%;
+}
+
+#post_rotator_params {
+  display:none;
+}
+
+.rotator_end {
+  clear:both;
+}
